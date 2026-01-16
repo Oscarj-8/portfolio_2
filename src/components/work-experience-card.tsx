@@ -8,9 +8,6 @@ const WorkExperienceCard = ({
 }) => {
   return (
     <div className="flex items-start w-full gap-4" key={workExperience.key}>
-      {/* 1. Use a fixed aspect ratio (e.g., w-24 h-16 for a 3:2 ratio)
-          2. Use flex-shrink-0 to prevent the image container from being squeezed by text
-      */}
       <div className="relative w-12 h-12 shrink-0">
         <Image
           src={workExperience.image}

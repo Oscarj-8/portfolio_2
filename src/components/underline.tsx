@@ -1,5 +1,4 @@
 const Underline = ({left = 4, width = "100%"}: {left? : number, width?: string | number}) => {
-  console.log("left", left)
   return (
     <svg
       className={`absolute top-[48%] z-10`}
