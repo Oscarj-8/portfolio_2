@@ -101,7 +101,37 @@ const projects: Projects[] = [
     link: "https://github-user-finder-main.vercel.app/",
   },
   {
-    key: "project-4",
+    key: "project-89",
+    title: "The Cooking Studio",
+    description:
+      "The Cooking Studio Addis is a professional culinary school and event center based in Addis Ababa, Ethiopia. It offers a range of hands-on programs, from intensive multi-month certification courses for aspiring chefs to fun, one-day workshops for home cooks. With a focus on both international and local cuisines, the studio provides a state-of-the-art kitchen environment for culinary training, corporate team-building events, and private cooking sessions.",
+    image: "/images/cooking.png",
+    technologies: [
+      "NextJs",
+      "Tailwind",
+      "Vaul",
+      "Zod",
+      "ReactHook Form",
+      "ShadCN",
+    ],
+    features: [
+      "Professional culinary certification programs (3, 6, and 9 months)",
+      "International cuisine training (Chinese, Indian, Mediterranean, etc.)",
+      "Advanced Ethiopian cuisine workshops",
+      "Hands-on weekend culinary sessions",
+      "Private one-on-one chef instruction",
+      "Corporate team-building events",
+      "State-of-the-art professional kitchen rental",
+      "Bespoke catering services",
+      "Online class booking and registration",
+      "Culinary gallery and student showcase",
+      "Newsletter for seasonal recipes and schedules",
+      "Gift vouchers for cooking experiences"
+    ],
+    link: "www.hararibpia.com",
+  },
+  {
+    key: "project-984",
     title: "Harari building permit and inspection authority",
     description:
       "Welcome to the Harari Building Permit and Inspection Authority repository! Our project aims to simplify construction processes by providing services like Plan Consent, Design Evaluation, Building Permit, and Building Inspection. Join us in ensuring compliance, safety, and quality in construction.",
@@ -117,8 +147,10 @@ const projects: Projects[] = [
     ],
     features: [
       "User Authentication",
+      "Request different kinds of services online (Gov't related)",
+      "Follow up request status online"
     ],
-    link: "https://expo.dev/@yourusername/smarttodo-mobile",
+    link: "www.hararibpia.com",
   },
   {
     key: "project-6",
@@ -137,29 +169,7 @@ const projects: Projects[] = [
     link: "https://dagoo-potfolio-website.vercel.app/",
   },
   {
-    key: "project-8",
-    title: "OscarEstate",
-    description:
-      "Welcome to Oscar Estate, where luxury living meets timeless elegance. Discover a world of refined sophistication and comfort in our meticulously designed homes. Experience the pinnacle of modern luxury at Oscar Estate—your destination for elevated living.",
-    image:
-      "/images/oscar.png",
-    technologies: [
-      "ReactJS",
-      "NodeJS",
-      "TailwindCSS",
-      "Express",
-      "MySQL",
-    ],
-    features: [
-      "Goal and progress tracking",
-      "Workout template creation",
-      "Sync with wearable devices",
-      "Interactive charts",
-    ],
-    link: "https://mern-real-esate.onrender.com/",
-  },
-  {
-    key: "project-8",
+    key: "project-80",
     title: "React Weather Web App",
     description:
       "This is a simple weather application built with Vite and React, utilizing the OpenWeather API to fetch real-time weather data. Users can enter a city name, and the app will display information such as the current weather, description, and temperature.",
@@ -167,16 +177,14 @@ const projects: Projects[] = [
       "/images/weather.png",
     technologies: [
       "ReactJS",
-      "NodeJS",
-      "TailwindCSS",
-      "Express",
-      "MySQL",
+      "RaindayJs",
+      "Axios",
+      "moment",
+      "OpenWeather API"
     ],
     features: [
-      "Goal and progress tracking",
-      "Workout template creation",
-      "Sync with wearable devices",
-      "Interactive charts",
+      "Fetch and display real-time weather data",
+      "Search weather data for any country"
     ],
     link: "https://react-weather-app-seven-wine.vercel.app/",
   },
