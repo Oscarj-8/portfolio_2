@@ -153,6 +153,35 @@ const projects: Projects[] = [
     link: "www.hararibpia.com",
   },
   {
+    key: "project-94",
+    title: "Savanna Gallary",
+    description:
+      "Painters Portfolio is a specialized, high-performance web platform designed specifically for visual artists and painters to showcase their digital or physical artwork. Built as a Progressive Web App (PWA), it combines a minimalist aesthetic with powerful features like an integrated admin panel for content management, offline accessibility, and real-time updates, allowing artists to maintain a professional digital gallery with ease.",
+    image: "/images/savanna.png",
+    technologies: [
+      "React",
+      "Node Js",
+      "EsLint",
+      "Tailwind CSS",
+      "React Redux",
+    ],
+    features: [
+      "AI-enhanced image gallery with responsive masonry grid",
+      "Integrated Admin Panel for real-time artwork uploads and edits",
+      "PWA support for installation on mobile and desktop home screens",
+      "Offline viewing capabilities using service worker caching",
+      "Full-screen immersive image viewer with swipe navigation",
+      "SEO-optimized architecture for better artist visibility",
+      "Automated image optimization for fast loading times",
+      "Contact form integration for direct commission inquiries",
+      "Social media link aggregation for cross-platform presence",
+      "Dark/Light mode support for varying aesthetic preferences",
+      "Interactive Artist Bio section with professional timeline",
+      "Clean, distraction-free UI designed to highlight visual art"
+    ],
+    link: "https://painters-portfolio.vercel.app/",
+  },
+  {
     key: "project-6",
     title: "Dagoo portfolio website",
     description:
