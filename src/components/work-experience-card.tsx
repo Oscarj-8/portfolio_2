@@ -8,12 +8,12 @@ const WorkExperienceCard = ({
 }) => {
   return (
     <div className="flex items-start w-full gap-4" key={workExperience.key}>
-      <div className="relative w-12 h-12 shrink-0">
+      <div className="relative w-12 h-12 md:w-20 md:h-20 shrink-0">
         <Image
           src={workExperience.image}
           alt="Work Experience"
           fill
-          className="rounded-md object-cover border-2 border-gray-400"
+          className="rounded-md p-1 object-contain border-2 border-gray-900"
         />
       </div>
 

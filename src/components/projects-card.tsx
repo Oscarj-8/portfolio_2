@@ -9,7 +9,7 @@ const ProjectsCard = ({ project }: { project: Projects }) => {
             src={project.image}
             alt="Work Experience"
             fill
-            className="rounded-md object-cover border-2 border-gray-400"
+            className="rounded-md object-cover border-2 border-gray-900"
           />
         </div>
       <div className="flex flex-col items-start -mt-1">
