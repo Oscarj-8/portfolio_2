@@ -27,7 +27,7 @@ const HeroSection = () => {
           <Button className="text-black bg-white hover:bg-white/80">
             <FileBadge className="w-4 h-4" />
             <Link
-              href="https://drive.google.com/file/d/11TGQMVX8AFVdda9iQExLVNn9qyOhY55R/view"
+              href="https://drive.google.com/file/d/1XMZTzyi4mu6yImIcCagpCUZOEM7cVAQi/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -46,7 +46,9 @@ const HeroSection = () => {
           </Button>
         </div>
       </div>
-      <Suspense fallback={<div className="text-white z-10">Loading icons...</div>}>
+      <Suspense
+        fallback={<div className="text-white z-10">Loading icons...</div>}
+      >
         <IconCloud images={images} />
       </Suspense>
     </div>
