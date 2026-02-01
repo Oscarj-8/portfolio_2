@@ -13,6 +13,7 @@ export const slugs = [
   "firebase",
   "nginx",
   "vercel",
+  "expo",
   "git",
   "jira",
   "github",
