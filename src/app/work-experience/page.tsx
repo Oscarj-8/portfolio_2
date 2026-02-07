@@ -18,7 +18,7 @@ const workExperience: WorkExperience[] = [
     title: "Co-founder and CTO",
     company: "Marvels Creative Technology",
     image: "/images/marvels.svg",
-    date: "Feb 2025 – Nov 2025",
+    date: "Feb 2025 – Present",
     description: "Co-founded a creative technology firm and directed the technical vision for internal and client-facing products. As CTO, I balanced high-level strategy with hands-on project management to deliver innovative digital solutions.",
     responsibilities: [
       "Defined the technical roadmap and oversaw the successful delivery of multiple internal and client projects.",
